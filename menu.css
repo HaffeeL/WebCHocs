@@ -1,0 +1,167 @@
+*{ 
+    font-family: 'Inria Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    padding-top: 13px;
+    padding-left: 13px;
+}
+
+nav {
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #BEFBFF;
+    line-height: 80px;
+}
+
+ul {
+    margin-left: 0px;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    float: left;
+}
+
+ul li a {
+    display: block;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgb(172, 87, 26);
+    padding: 0 30px;
+}
+
+ul li a:hover {
+    background:chocolate;
+    color: #ffffff;
+    transition: .5s;
+}
+
+body{
+    background-color: #EFFEFF;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 80px;
+}
+
+.container{
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.Page{
+    margin-top: 25px;
+    font-size: 30px;
+    padding-bottom: 10px;
+    color: rgb(172, 87, 26);
+}
+
+.prodName{
+    font-weight: 300;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+.product{
+    margin: 0.5rem;
+    position:relative;
+}
+
+.product .content{
+    padding: 5px 2px 5px 2px;
+}
+
+.productImage{
+    background: var(#f5e6d1);
+    width: 750px;
+    margin: 10px auto;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productImage img:hover{
+    opacity: 60%;
+}
+
+.first{
+    cursor: pointer;
+}
+
+.second{
+    cursor: pointer;
+}
+
+.info{
+    width: 750px;
+    position: relative;
+    display: flex;
+    text-align: center;
+    justify-content:space-between;
+    margin: 0 auto;
+    color: rgb(172, 87, 26);
+    /* background: bisque; */
+}
+
+a:link{
+    color: rgb(172, 87, 26);
+}
+
+.Belgian{
+    width: 300px;
+    /* background: #33e985; */
+    text-align: left;
+    cursor: pointer;
+}
+
+.Belgian:hover{
+    /* color: rgb(25, 0, 255); */
+    opacity: 70%;
+}
+
+.Milk{
+    width: 300px;
+    text-align: left;
+    cursor: pointer;
+    /* background-color: pink; */
+}
+
+.Milk:hover{
+    /* color: gray; */
+    opacity: 70%;
+}
+
+.titles{
+    padding-top: 15px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: 400;
+    color: rgb(172, 87, 26);;
+}
+
+.desc{
+    padding-top: 10px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 200;
+    color: rgb(172, 87, 26);;
+}
+
+footer {
+    position:fixed;
+    bottom: 0;
+    text-align: center;
+    display: block;
+    background-color: #BEFBFF;
+    padding: 10px 0;
+    color: rgb(172, 87, 26);
+    width: 100%;
+    margin-top: auto;
+}
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.1">
+    <title>Cart</title>
+    <link rel="stylesheet" href="cart.css">
+</head>
+<body>
+    <nav>
+        <a href="menu.html">
+            <img class="logo" src="./images/chocolate.png" width="69px">
+        </a>
+        <ul>
+            <li><a href="product.html">Product</a></li>
+            <li><a href="cart.html">Cart</a></li>
+            <li><a href="about us.html">About Us</a></li>
+            <li><a href="Location.html">Location</a></li>
+        </div>
+    </ul>
+</nav>
+
+<div class="container">
+    <div class="title">Cart</div> <br>
+    <form method="" id="form" action="" onsubmit="return ValidateForm()">
+        <div class="cart-details">
+            <div class="input-box">
+                <span class="details">Name</span>
+                <input id="name" name="name" type="text" placeholder="Full Name" onkeydown="call()">
+            </div>
+            <div class="input-box">
+                <span class="details">Phone Number</span>
+                <input id="phone" name="phone" type="text" placeholder="+62 xxx xxxx xxxx" onkeydown="call()">
+            </div>
+            <div class="input-box">
+                <span class="details">Email</span>
+                <input id="email" name="email" type="text" placeholder="example@maile.com" onkeydown="call()">
+            </div>
+            <div class="input-box">
+                <span class="details">Product</span>
+                <select itemid="product" name="product" class="drpbtn" name="Prod" id="list">
+                    <option value="btr">Click to Choose</option>
+                    <option value="btr">Bittersweet Chocolate - Rp50.000/100gr</option>
+                    <option value="btr">Milk chocolate - Rp110.000/packs</option>
+                    <option value="btr">Belgian Chocolate - Rp115.000/packs</option>
+                    <option value="btr">Ruby Chocolate - Rp130.000/packsgr</option>
+                    <option value="btr">Cocoa Powder - Rp75.000/100gr</option>
+                        </select>
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Quantity</span>
+                        <input id="quantity" name="quantity" type="number" min="1" onkeydown="call()">
+                    </div>
+                    <div class="input-box">
+                        <span class="details">Address</span>
+                        <input id="address" name="address" type="text" placeholder="x Street" onkeydown="call()">
+                    </div>
+                </div>
+                <div style="text-align:center" class="button">
+                    <p id="error" name="Purchase">
+                    </p>
+                    <div  class="purch">
+                        <input type="submit" value="Purchase">
+                    </div>
+                </div>
+            </form>
+        </div>
+        <footer>
+            <p>
+                Email : CHocs.inc@example.com <br>
+                Phone : +6294856739585<br>
+                CHocs.Inc since 2022
+            </p>
+        </footer>
+    </body>
+    <script src="cart.js"></script>
+</html>
